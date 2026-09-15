@@ -128,8 +128,7 @@ STATICFILES_DIRS = [
 BASE_DIR / "catalog" / "static", 
 ] 
 # WhiteNoise (recommended with DEBUG=False) 
-STATICFILES_STORAGE = 
-"whitenoise.storage.CompressedManifestStaticFilesStorage"
+STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
 
 # Media uploads
 MEDIA_ROOT = os.path.join(BASE_DIR, "media")
